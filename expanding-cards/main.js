@@ -1,5 +1,5 @@
 import './style.css';
-const modules = import.meta.globEager('./assets/**.jpg');
+const modules = import.meta.globEager('./assets/*.jpg');
 
 const app = document.getElementById('app');
 const expansionCards = app.querySelector('#expansion-cards');
@@ -18,7 +18,7 @@ function changeLayout(e) {
 let i = 0;
 for (const path in modules) {
 	const image = document.createElement('img');
-	image.src = path;
+	image.src = modules[path].default;
 	image.classList.add(`image-${i}`);
 	if (i === 0) {
 		image.classList.add('image-spread');
