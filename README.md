@@ -1,4 +1,4 @@
-## 50 Days 50 Project
+## 50 Days 50 Projects
 
 Trying to following the Brad Traversy ideas for project. Usually my own implementation and trying something new.
 
@@ -6,5 +6,4 @@ Trying to following the Brad Traversy ideas for project. Usually my own implemen
  
 **Sliding/Expanding Images**
 
-Tried to use Vite, CSS custom properties to acheive this!. Live Demo: https://vishnup95.github.io/50-Days-50-Projects-/expanding-cards/build/index.html
-
+Tried to use Vite, CSS custom properties to acheive this!. Live Demo: https://vishnup95.github.io/50-Days-50-Projects-/expanding-cards/index.html
