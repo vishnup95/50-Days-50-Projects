@@ -1,0 +1,79 @@
+.progressContainer {
+	padding-top: 4rem;
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.stepsWrapper {
+	/* display: flex; */
+}
+
+.stepsContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 350px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.fallbackProgressBar {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #eadfd0;
+	height: 4px;
+	width: 95%;
+	z-index: 1;
+}
+
+.mainProgressBar {
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	transform: translate(0%, -50%);
+	background-color: cyan;
+	height: 8px;
+	/* width: 100%; */
+	z-index: 0;
+	transition: width 0.7s linear;
+}
+
+.step {
+	width: 50px;
+	height: 50px;
+	border-radius: 24px;
+	background-color: bisque;
+	text-align: center;
+	padding-top: 1rem;
+	border: 2px solid #eadfd0;
+	z-index: 2;
+	transition: border-color font-weight 0.7s linear;
+	transition-delay: 0.5s;
+}
+
+.active {
+	border-color: cyan;
+	font-weight: 700;
+}
+
+.nextButton {
+	min-width: 100px;
+	font-size: 16px;
+	border-radius: 4px;
+	padding: 5px 10px;
+	cursor: pointer;
+	background-color: cyan;
+	outline: none;
+	border: none;
+	display: block;
+	margin: 0 auto;
+}
+
+.nextButton:disabled {
+	cursor: not-allowed;
+}
