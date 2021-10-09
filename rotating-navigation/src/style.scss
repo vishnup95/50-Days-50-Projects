@@ -17,7 +17,7 @@ body {
 
 	.content {
 		padding: 5rem 2.5rem 2rem;
-		min-height: 100%;
+		min-height: 90vh;
 		max-width: 1440px;
 		width: 80%;
 		margin: 0 auto;
@@ -74,12 +74,12 @@ body {
 				background-color: #fff;
 				border-radius: 2px;
 				margin: 5px 0;
-				transition: all 0.75s ease;
+				transition: transform 0.75s ease;
 			}
 
 			&.close {
 				.line {
-					transition: all 0.75s ease;
+					transition: transform opacity 0.75s ease;
 				}
 
 				.line-one {
@@ -110,8 +110,9 @@ body {
 		height: 90%;
 		padding: 1.5rem 2rem;
 		transform: translateX(-200px);
-		transform-origin: left top;
 		transition: transform 0.77s ease-out;
+		transform-origin: left top;
+
 
 		&.show {
 			transform: translateX(0);
