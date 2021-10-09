@@ -7,3 +7,7 @@ Trying to following the Brad Traversy ideas for project. Usually my own implemen
 **Sliding/Expanding Images**
 
 Tried to use Vite, CSS custom properties to acheive this!. Live Demo: [Click Here](https://vishnup95.github.io/50-Days-50-Projects/expanding-cards/)
+
+### Day 2
+
+Preact and Vercel! - Live Demo: [Click Here](https://50-days-50-projects.vercel.app/)
