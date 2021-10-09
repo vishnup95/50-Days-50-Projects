@@ -12,14 +12,15 @@ cd dist
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
-git init
+# git init
 git add -A
 git commit -m 'deploy'
+# git status
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@personal:vishnup95/50-Days-50-Projects.git master:gh-pages
+git push git@personal:vishnup95/50-Days-50-Projects.git master:gh-pages -f
 
 cd -
