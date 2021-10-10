@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 
-const root = ref(null)
+const root = ref(null);
 const props = defineProps({
 	type: String,
 	placeholder: String,
@@ -11,8 +11,13 @@ const props = defineProps({
 
 function clickMethod() {
 	console.log('clicked');
-	root.value.classList.remove('no-width-show')
+	root.value.classList.remove('no-width-show');
 }
+
+const resetSearch = () => {
+	console.log('reset');
+	root.value.classList.add('no-width-show');
+};
 </script>
 
 <template>
@@ -28,6 +33,11 @@ function clickMethod() {
 			<div class="icon-search" @click="clickMethod">
 				<font-awesome-icon :icon="[iconType, iconName]" />
 			</div>
+		</div>
+		<div class="reset-search">
+			<button class="btn reset-btn" type="reset" @click="resetSearch">
+				Reset
+			</button>
 		</div>
 	</div>
 </template>
@@ -59,6 +69,11 @@ function clickMethod() {
 	border-style: none;
 	transition: width 0.77s cubic-bezier(1, 0, 0, 1);
 	width: 180px;
+	font-family: 'Righteous', sans-serif;
+}
+
+.reset-btn {
+	margin-top: 1.25rem;
 }
 
 .no-width-show {
