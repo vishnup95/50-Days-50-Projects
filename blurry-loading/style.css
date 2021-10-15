@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#app {
+	font-family: Avenir, Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	/* text-align: center; */
+	color: #2c3e50;
+	/* margin-top: 60px; */
+	height: 100vh;
+	position: relative;
+}
+
+.loading-image {
+	width: 100%;
+	height: inherit;
+	object-fit: cover;
+	/* filter: blur(30px); */
+}
+
+.percent-loading-text {
+	z-index: 1;
+	position: absolute;
+	color: orange;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 56px;
+	margin: 0;
+}
