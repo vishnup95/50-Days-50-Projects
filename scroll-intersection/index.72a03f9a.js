@@ -1,0 +1,2 @@
+const e=document.querySelectorAll(".section"),t=(document.querySelector(".container"),new IntersectionObserver((function(e,t){e.forEach((e=>{console.log(e),e.isIntersecting&&(e.target.classList.add("inverse"),t.unobserve(e.target))}))}),{threshold:0,rootMargin:"0px 0px -200px 0px"}));e.forEach(((e,r)=>{r%2==0?e.classList.add("keep-left"):e.classList.add("keep-right"),t.observe(e)}));
+//# sourceMappingURL=index.72a03f9a.js.map
