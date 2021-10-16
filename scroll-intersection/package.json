@@ -1,0 +1,17 @@
+{
+	"name": "scroll-intersection",
+	"version": "0.0.1",
+	"description": "scroll-animation-intersection-observer",
+	"source": "src/index.html",
+	"author": "vishnup95",
+	"license": "MIT",
+	"packageManager": "yarn@3.0.2",
+	"scripts": {
+		"dev": "parcel --port 3000",
+		"build": "parcel build --dist-dir dist/scroll-intersection"
+	},
+	"devDependencies": {
+		"@parcel/transformer-sass": "^2.0.0",
+		"parcel": "^2.0.0"
+	}
+}
