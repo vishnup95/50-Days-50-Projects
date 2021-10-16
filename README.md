@@ -35,3 +35,11 @@ Hidden Search - Live Demo - [Click Here](https://vishnup95.github.io/50-Days-50-
 Blurred Loading - Live Demo - [Click Here](https://codepen.io/vishnup95/pen/xxLZOGL)
 
 Experiment with requestAnimationFrame instead of setInterval. Math is stupid in this.
+
+### Day 6
+
+**Scroll Animated**
+
+Animated Scrolling - Live Demo - [Click Here](https://vishnup95.github.io/50-Days-50-Projects/scroll-intersection/)
+
+Learned a little about intersection observer api and parcel v2, yarn v3.
