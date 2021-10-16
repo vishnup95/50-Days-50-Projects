@@ -8,7 +8,7 @@
 	"packageManager": "yarn@3.0.2",
 	"scripts": {
 		"dev": "parcel --port 3000",
-		"build": "parcel build --dist-dir dist/scroll-intersection"
+		"build": "parcel build --dist-dir dist/scroll-intersection --public-url '/50-Days-50-Projects/scroll-intersection/'"
 	},
 	"devDependencies": {
 		"@parcel/transformer-sass": "^2.0.0",
