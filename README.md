@@ -43,3 +43,11 @@ Experiment with requestAnimationFrame instead of setInterval. Math is stupid in 
 Animated Scrolling - Live Demo - [Click Here](https://vishnup95.github.io/50-Days-50-Projects/scroll-intersection/)
 
 Learned a little about intersection observer api and parcel v2, yarn v3.
+
+### Day 7
+
+**Split Landing**
+
+Split Landing - Live Demo - [Click Here](https://vishnup95.github.io/50-Days-50-Projects/split-landing/)
+
+No scripts in a sense :()
