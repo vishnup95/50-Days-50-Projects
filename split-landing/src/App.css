@@ -1,0 +1,46 @@
+.app-header {
+	color: #fff;
+	text-align: center;
+}
+
+.app {
+	height: 100vh;
+}
+
+main {
+	height: calc(100% - 1rem);
+}
+
+.grid-container {
+	display: flex;
+	height: inherit;
+}
+
+.wrapper {
+	width: 50%;
+	transition: all 0.77s linear;
+	background-size: cover;
+}
+
+.left-wrapper {
+	background-image: url('../assets/ps.jpg');
+}
+
+.left-wrapper:hover {
+	width: 75%;
+	transition: all 0.77s linear;
+}
+
+.left-wrapper:hover + .right-wrapper {
+	width: 25%;
+}
+
+.right-wrapper {
+	background-image: url('../assets/xbox.jpg');
+}
+
+.right-wrapper:hover {
+	/* transition: all 0.77s cubic-bezier(0.075, 0.82, 0.165, 1); */
+	width: 75%;
+	transition: all 0.77s linear;
+}
